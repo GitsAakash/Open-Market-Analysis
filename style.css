@@ -1,0 +1,119 @@
+*
+{
+    margin-left: 10px;
+}
+header{
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+    padding: 30px;
+    font-size: larger;
+}
+h3
+{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    background-color: yellowgreen;
+    border-radius: 2px;
+}
+nav a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    float: inline-start;
+    overflow: hidden;
+    font-size: large;
+    padding: 5px;
+    display: flexbox;
+}
+nav
+{
+    background-color: black;
+    padding: 20px;
+
+}
+
+nav a:hover
+{
+    color: tomato;
+    cursor: pointer;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+section h3{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img
+{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1px;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+}
+footer a{
+    color: aliceblue;
+    font-size: 15px;   
+    float: inline-start;
+    overflow: hidden;
+    padding: 5px;
+}
+footer a:hover
+{
+    color: tomato;
+    cursor: pointer;
+}
+iframe
+{
+    margin: 10px;
+}
+.how{
+    margin-left: auto;
+}
+
+
+  
+.carousel-cell {
+width: 100%;
+height: 200px;
+border-radius: 5px;
+counter-increment: gallery-cell;
+padding: 20px;
+margin:  10px;
+}
+
+
+  
+@keyframes example {
+0%   {width: 10%;}
+25%  {width: 10%;}
+50%  {width: 10%;}
+75%  {width: 10%;}
+100% {width: 10%;}
+}
+header {
+    width: 100px;
+    height: 100px;
+    position: var(width=100%);
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    
+  }
+
+@media screen and (max-width : 700px) {
+    nav{
+        flex-direction: column;
+    }
+    .how
+    {
+        margin-left: 0px;
+    }
+    .nav a{
+        text-align: center;
+    }
+}
